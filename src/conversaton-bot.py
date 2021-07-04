@@ -10,7 +10,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-TOKEN = '1333608087:AAH5RLQM7G_UUP2qPZpeUtGMIyBqCM7bDLM'
+TOKEN = '1333608087:AAH5RLQM7G_UUP2qPZpeUtGMIyBqCM7bDLM' # Get your tocken from dialogflow, this one won't work
 app = Flask(__name__)
 
 @app.route('/')
